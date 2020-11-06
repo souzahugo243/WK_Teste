@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/07/28 11:50:05.000.750,=C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/05 20:51:43.000.687,=C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/05 21:08:54.000.465,=C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2020/11/05 22:00:34.000.816,=C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/11/05 22:00:43.000.075,=C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2020/11/05 22:18:36.000.238,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Users\souza\Desktop\WK_TESTE\Formularios\U_Menu.pas</Transaction>
+    <Transaction>2020/11/05 22:18:36.000.238,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Users\souza\Desktop\WK_TESTE\Formularios\U_Menu.dfm</Transaction>
+    <Transaction>2020/11/05 22:18:55.000.861,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\souza\Desktop\WK_TESTE\Formularios\U_DigitacaoPedido.dfm</Transaction>
+    <Transaction>2020/11/05 22:18:55.000.861,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\souza\Desktop\WK_TESTE\Formularios\U_DigitacaoPedido.pas</Transaction>
+    <Transaction>2020/11/05 22:19:08.000.943,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\souza\Desktop\WK_TESTE\Formularios\DataModuleConexao.pas</Transaction>
+    <Transaction>2020/11/05 22:19:08.000.943,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\souza\Desktop\WK_TESTE\Formularios\DataModuleConexao.dfm</Transaction>
+    <Transaction>2020/11/05 22:19:23.000.733,C:\Users\souza\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\souza\Desktop\WK_TESTE\WK_Teste.dproj</Transaction>
+    <Transaction>2020/11/05 22:32:34.578,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\DataModule\DataModuleConexao.pas</Transaction>
+    <Transaction>2020/11/05 22:32:48.182,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\MenuPrincipal\U_Menu.pas</Transaction>
+    <Transaction>2020/11/05 22:33:03.466,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_DigitacaoPedido.pas</Transaction>
+    <Transaction>2020/11/05 22:56:36.648,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/05 23:04:39.299,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Modelos\U_ModeloConsulta1.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/05 23:04:39.299,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Modelos\U_ModeloConsulta1.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2020/11/05 23:08:35.655,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/05 23:09:37.232,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Clientes\U_Cliente.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/05 23:09:37.232,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Clientes\U_Cliente.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.dfm</Transaction>
+    <Transaction>2020/11/05 23:19:17.585,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/05 23:19:44.760,C:\Users\souza\Desktop\WK_TESTE\Delphi\Classes\TUtilidades.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 00:07:30.534,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/06 00:08:22.984,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_Produto.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/06 00:08:22.984,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_Produto.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.dfm</Transaction>
+    <Transaction>2020/11/06 00:39:32.825,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 00:39:37.406,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 01:00:44.891,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_IniciarAtendimento.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2020/11/06 01:00:44.891,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_IniciarAtendimento.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 03:48:27.178,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 03:49:05.407,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_ProdutoDetalhe.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 03:49:05.407,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_ProdutoDetalhe.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2020/11/06 04:10:13.589,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 04:10:45.560,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_LocalizaProduto.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2020/11/06 04:10:45.560,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Produtos\U_LocalizaProduto.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 07:34:42.990,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 07:37:41.965,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/06 07:39:05.929,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_PedidosPeriodo.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.pas</Transaction>
+    <Transaction>2020/11/06 07:39:05.929,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_PedidosPeriodo.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit2.dfm</Transaction>
+    <Transaction>2020/11/06 07:53:06.881,=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+    <Transaction>2020/11/06 07:53:48.774,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_OperacaoPedido.dfm=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2020/11/06 07:53:48.774,C:\Users\souza\Desktop\WK_TESTE\Delphi\Unidades\Pedido\U_OperacaoPedido.pas=C:\Users\souza\Desktop\WK_TESTE\Delphi\Projeto\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

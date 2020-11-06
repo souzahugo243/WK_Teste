@@ -1,0 +1,13 @@
+program WK_Teste;
+
+uses
+  Vcl.Forms,
+  U_Menu in 'Formularios\U_Menu.pas' {F_Menu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.Run;
+end.

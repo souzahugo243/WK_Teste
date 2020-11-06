@@ -1,0 +1,18 @@
+object DataModule2: TDataModule2
+  OldCreateOrder = False
+  Height = 155
+  Width = 133
+  object Conexao: TFDConnection
+    Params.Strings = (
+      'Database=wk_teste'
+      'User_Name=root'
+      'Server=LOCALHOST'
+      'DriverID=mySQL')
+    Left = 40
+    Top = 24
+  end
+  object DriverMYSQL: TFDPhysMySQLDriverLink
+    Left = 40
+    Top = 80
+  end
+end

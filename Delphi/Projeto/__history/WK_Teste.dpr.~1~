@@ -1,0 +1,18 @@
+program WK_Teste;
+
+uses
+  Vcl.Forms,
+  U_DigitacaoPedido in 'Formularios\U_DigitacaoPedido.pas' {F_DigitacaoPedido},
+  DataModuleConexao in 'Formularios\DataModuleConexao.pas' {DataModule2: TDataModule},
+  U_Menu in 'Formularios\U_Menu.pas' {F_Menu};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TF_DigitacaoPedido, F_DigitacaoPedido);
+  Application.CreateForm(TDataModule2, DataModule2);
+  Application.CreateForm(TF_Menu, F_Menu);
+  Application.Run;
+end.

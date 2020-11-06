@@ -1,0 +1,42 @@
+unit U_Menu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ComCtrls, Vcl.ToolWin;
+
+type
+  TF_Menu = class(TForm)
+    TLB_Botoes: TToolBar;
+    ToolButton2: TToolButton;
+    BTN_Produtos: TSpeedButton;
+    BTN_Clientes: TSpeedButton;
+    BTN_Vendas: TSpeedButton;
+    procedure BTN_ClientesClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  F_Menu: TF_Menu;
+
+implementation
+
+uses
+  U_Cliente;
+{$R *.dfm}
+
+procedure TF_Menu.BTN_ClientesClick(Sender: TObject);
+var LClientes : TF_Cliente;
+begin
+ try
+  LClientes := TF_Cliente.Create(Nil);
+  LClientes.ShowModal;
+ finally
+  FreeAndNil(LClientes);
+ end;
+end;
+
+end.

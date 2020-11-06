@@ -1,0 +1,203 @@
+object F_ProdutoDetalhe: TF_ProdutoDetalhe
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Inclus'#227'o de Produto'
+  ClientHeight = 283
+  ClientWidth = 743
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label4: TLabel
+    Left = 155
+    Top = 77
+    Width = 87
+    Height = 16
+    Caption = 'C'#243'digo Produto'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 177
+    Top = 117
+    Width = 65
+    Height = 16
+    Caption = 'Quantidade'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 164
+    Top = 155
+    Width = 78
+    Height = 16
+    Caption = 'Valor Unit'#225'rio'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BTN_Localizar: TSpeedButton
+    Left = 336
+    Top = 76
+    Width = 23
+    Height = 22
+    Cursor = crHandPoint
+    Hint = 'Localize Informa'#231#245'es'
+    Glyph.Data = {
+      36030000424D3603000000000000360000002800000010000000100000000100
+      1800000000000003000074120000741200000000000000000000FFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAFACA8E0DFDDFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE3E3E3DADADAF8F8F8B4B2
+      AF6B665CFAFAFAFFFFFFFFFFFFFCE9D2FBDEBBFBDEBBFBDEBBFBDEBBFBDEBBF9
+      DDBA988D81B0A18FC0AE988D8A86949493FAFAFAFFFFFFFFFFFFFFFFFFFCE9D2
+      FBDEBBFBDEBBFBDEBBFBDEBBFBDEBBBDAB96CAB69EFBDEBBFBDEBBF3D9BA9695
+      94FFFFFFFFFFFFFFFFFFFFFFFFFCE9D2FBDEBBE7AB6BE7AB6BDD9244E7AA6A9E
+      9385F0D5B5FBDEBBFBDEBBFBDEBB95938FFFFFFFFFFFFFFFFFFFFFFFFFFCE9D2
+      FBDEBBE9B072E9B072E0994FE2A05ABAA995CAB69EFBDEBBFBDEBBF3D9BA9392
+      91FFFFFFFFFFFFFFFFFFFFFFFFFCE9D2FBDEBBF4CC9EF4CC9EF0C290F0C290F2
+      CB9F988D81B0A18FC0AE98918D89E1E1E1FFFFFFFFFFFFFFFFFFFFFFFFFCE9D2
+      FBDEBBF2C697F2C697EDBB85EDBB85EEBE89FADCB9E0C8ABD7C1A6F7EEE2FFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFCE9D2FBDEBBE7AB6BE7AB6BDD9244DD9244DD
+      9244DD9244E7AB6BFBDEBBFEF4E8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCE9D2
+      FBDEBBE9B072E9B072E0994FE0994FE0994FE0994FE9B072FBDEBBFEF4E8FFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFF2D1B8FBDEBBFBDEBBFBDEBBFBDEBBFBDEBBFB
+      DEBBFBDEBBFBDEBBFBDEBBF5DED0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE4B49C
+      E8B99AE8B99AE8B99AE8B99AE8B99AE8B99AE8B99AE8B99AE8B99AEBCBBEFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFCE8B7FB5513FB5513FB5513FB5513FB5513FB5
+      513FB5513FB5513FB5513FE6C5BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1DFDC
+      E6C5BFE6C5BFE6C5BFE6C5BFE6C5BFE6C5BFE6C5BFE6C5BFE6C5BFFAF3F1FFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF}
+    ParentShowHint = False
+    ShowHint = True
+    OnClick = BTN_LocalizarClick
+  end
+  object TXT_Produto: TLabel
+    Left = 365
+    Top = 79
+    Width = 324
+    Height = 13
+    Caption = '< Informe o produto >'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 135
+    Top = 198
+    Width = 107
+    Height = 18
+    Caption = 'Valor Total Item'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 19
+    Top = 9
+    Width = 168
+    Height = 16
+    Caption = 'Incluindo Produto no Pedido: '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object BTN_Confirmar: TSpeedButton
+    Left = 135
+    Top = 237
+    Width = 114
+    Height = 38
+    Cursor = crHandPoint
+    Caption = 'Confirmar'
+  end
+  object BTN_Cancelar: TSpeedButton
+    Left = 255
+    Top = 237
+    Width = 104
+    Height = 38
+    Cursor = crHandPoint
+    Caption = 'Cancelar'
+  end
+  object EDT_CodigoProduto: TEdit
+    Left = 248
+    Top = 76
+    Width = 83
+    Height = 21
+    TabOrder = 0
+    OnExit = EDT_CodigoProdutoExit
+  end
+  object EDT_Quantidade: TEdit
+    Left = 248
+    Top = 116
+    Width = 111
+    Height = 21
+    TabOrder = 1
+  end
+  object EDT_Unitario: TEdit
+    Left = 248
+    Top = 154
+    Width = 111
+    Height = 21
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnExit = EDT_UnitarioExit
+  end
+  object EDT_Total: TEdit
+    Left = 248
+    Top = 194
+    Width = 111
+    Height = 27
+    Color = clCream
+    Enabled = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object EDT_Pedido: TEdit
+    Left = 193
+    Top = 8
+    Width = 121
+    Height = 21
+    Enabled = False
+    TabOrder = 4
+  end
+end
